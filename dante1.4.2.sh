@@ -5,6 +5,7 @@ read -p "type in socks port: " sport
 echo "ok.. please wait a few minute!"
 sleep 3
 sudo apt-get update -y
+sudo apt-get install make gcc -y
 sudo apt-get install mc -y
 sudo apt-get install wget -y
 sudo apt-get install curl -y
